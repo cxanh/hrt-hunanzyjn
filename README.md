@@ -17,6 +17,7 @@
 
 - 根目录：当前脚本文件
 - `docs/`：研究记录、文档索引与长期说明
+- `docs/captured-sources/`：来源文件归档位与采集说明
 - `templates/`：新脚本和记录模板
 - `.github/`：Issue / PR 协作模板
 
@@ -47,6 +48,7 @@ This private repository stores internal test scripts, research notes, and iterat
 
 - Repository root: current script files
 - `docs/`: research notes, documentation index, and long-term references
+- `docs/captured-sources/`: storage location for source-capture notes and intake records
 - `templates/`: templates for new scripts and research records
 - `.github/`: collaboration templates for issues and pull requests
 

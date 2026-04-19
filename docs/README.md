@@ -10,6 +10,7 @@
 - 已知限制
 - 环境说明
 - 版本差异说明
+- 来源文件归档说明
 
 ## English
 
@@ -21,3 +22,4 @@ Recommended contents:
 - known limitations
 - environment notes
 - version difference notes
+- source capture notes

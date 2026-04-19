@@ -9,6 +9,7 @@ All notable changes to this private repository should be recorded here.
 - Bilingual repository README
 - Contribution guide
 - Documentation index and research log template
+- Captured-source archive directory and source intake notes
 - Script template for future internal scripts
 - GitHub issue and pull request templates
 
