@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Internal discussion
+    url: https://github.com/cxanh/hrt-hunanzyjn
+    about: Use repository discussions or direct team communication for non-template topics.

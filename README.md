@@ -1,28 +1,63 @@
 # hrt-hunanzyjn
 
-内部研究脚本仓库，用于存放和迭代与 `chinahrt.com` 相关的测试脚本，便于版本管理、问题追踪和团队协作。
+内部研究脚本仓库 / Internal research script repository.
 
-## 仓库定位
+## 中文说明
+
+### 仓库定位
+
+这是一个私有仓库，用于保存与 `chinahrt.com` 相关的内部测试脚本、研究记录与迭代文档，便于版本管理、问题追踪和团队协作。
 
 - 仅限授权场景下的内部测试、学习与研究
-- 不面向公开分发，不提供生产用途承诺
-- 不应用于规避平台规则、身份校验或其他未授权行为
+- 不面向公开分发
+- 不承诺生产可用性
+- 使用者应自行确认其操作具备明确授权，并遵守适用的法律、协议与平台规则
 
-## 当前内容
+### 目录结构
+
+- 根目录：当前脚本文件
+- `docs/`：研究记录、文档索引与长期说明
+- `templates/`：新脚本和记录模板
+- `.github/`：Issue / PR 协作模板
+
+### 当前脚本
 
 - `ChinahrtAutoplay-v1.js`
 - `ChinahrtAutoplay-v2.js`
 
-## 使用说明
+### 维护建议
 
-本仓库当前主要用于保存脚本版本和研究记录。建议在受控测试环境中使用，并结合提交记录说明每次调整的背景、目标和验证结果。
+- 每次脚本调整前先记录变更目的和影响范围
+- 每次提交尽量只包含一类变更
+- 研究结论、已知限制和适用环境建议同步写入 `docs/`
+- 新增脚本时优先复用 `templates/` 中的模板
 
-## 开发建议
+## English
 
-- 为每次脚本调整补充简要变更说明
-- 在提交前记录适用页面、触发条件和已知限制
-- 尽量保持脚本分版本存放，避免直接覆盖历史实现
+### Repository Purpose
 
-## 免责声明
+This private repository stores internal test scripts, research notes, and iteration documents related to `chinahrt.com`, with a focus on version control, traceability, and team collaboration.
 
-本仓库内容仅供内部授权测试、学习和研究使用。使用者应自行确认其操作具备明确授权，并遵守适用的法律、协议与平台规则。
+- For authorized internal testing, learning, and research only
+- Not intended for public distribution
+- No production-use guarantee
+- Users are responsible for ensuring they have proper authorization and comply with applicable laws, agreements, and platform rules
+
+### Layout
+
+- Repository root: current script files
+- `docs/`: research notes, documentation index, and long-term references
+- `templates/`: templates for new scripts and research records
+- `.github/`: collaboration templates for issues and pull requests
+
+### Current Scripts
+
+- `ChinahrtAutoplay-v1.js`
+- `ChinahrtAutoplay-v2.js`
+
+### Maintenance Notes
+
+- Record the purpose and expected impact before changing a script
+- Keep each commit focused on one category of change
+- Store findings, known limitations, and environment notes under `docs/`
+- Reuse templates from `templates/` when adding new scripts
