@@ -5,7 +5,7 @@
 
 ---
 
-[hrt-hunanzyjn规范说明版](README.md)
+[hrt-hunanzyjn规范说明版](./README.md)
 
 ## 🌸 状态看板
 用于实时监测项目的迭代进度。
